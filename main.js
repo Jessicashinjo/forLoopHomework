@@ -25,6 +25,13 @@ console.log(loopCounter);
 // Write a loop that starts at 100 and decrements a variable by 1. If the number is even,
 // add the number to the beginning of an array, else add it to the end of the array.
 
-// for (var i = Things.length - 1; i >= 0; i--) {
-//   Things[i]
-// }
+var evenOddArray = [];
+for (var i = 100; i >= 0; i--) {
+  if (i % 2 === 0 ){
+    evenOddArray.unshift(i);
+  } else {
+    evenOddArray.push(i);
+  }
+}
+
+console.log(evenOddArray);
