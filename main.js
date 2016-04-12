@@ -17,7 +17,7 @@ for (var i = 10000; i > 1; i = Math.floor( i/2 ) ){
   loopCounter.push(i);
 }
 
-console.log(loopCounter);
+console.log("loopCounter", loopCounter);
 
 
 
@@ -34,4 +34,4 @@ for (var i = 100; i >= 0; i--) {
   }
 }
 
-console.log(evenOddArray);
+console.log("evenOddArray", evenOddArray);
